@@ -1,0 +1,11 @@
+{
+  "pubspecLockSha256": "59705D71F90EAF80DEB1DA1735FB7F736EDD2211CC7FE1277DCD0B45DF2C2571",
+  "sdkDirectories": [
+    "platforms/android-36",
+    "platforms/android-35",
+    "build-tools/36.0.0",
+    "ndk/28.2.13676358",
+    "cmake/3.22.1"
+  ],
+  "provenance": "App API 36; jni_flutter 1.0.4+1 compileSdk 35; native CMake 3.22.1 observed in Gradle build. Review plugin build.gradle files and logs after dependency changes."
+}
