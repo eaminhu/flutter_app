@@ -4,7 +4,9 @@
 
 Start with current documents; dated plans and verifications preserve stage evidence.
 
-- [Project constraints](project-rules.md): established engineering constraints and Flutter mappings; Agent instructions remain in AGENTS.md / CLAUDE.md.
+- [Project constraints](project-rules.md): established engineering constraints and Web↔Flutter mappings; Agent instructions remain in AGENTS.md / CLAUDE.md.
+- [Invariants](invariants.md): rules that must already hold, each cross-referenced to its source.
+- [Glossary](glossary.md): domain terminology and user-facing vocabulary.
 - [Mobile design](design-system.md): accepted visual direction, current components and remaining design scope.
 - [Design tokens](design-tokens.md): actual Forui 0.27.5 colors, typography, radii and local spacing; trading tokens remain undefined.
 - [Architecture](architecture.md): current dependencies and implementation boundaries.
@@ -23,4 +25,5 @@ Start with current documents; dated plans and verifications preserve stage evide
 Current documents distinguish accepted direction, implemented behavior and verified evidence. Planned capabilities are not effective invariants. Update documentation alongside affected code; keep one maintained source per concept. Documentation review and automated tests do not certify real-account trading or iOS acceptance.
 
 <!-- 2026-10-13 | Documentation inventory | Added constraints, design/token snapshots and repaired handoff navigation. -->
+<!-- 2026-10-20 | Rule-set alignment | CLAUDE.md rewritten Flutter-native; added invariants.md and glossary.md authorities. -->
 

@@ -6,7 +6,7 @@
 
 首期 Android/iOS 手机端，现货（Spot）优先；Forui + 自定义交易组件。采用已确认的 [基础设计](designs/2026-10-12-flutter-foundation.md) 和 [网络/会话设计](designs/2026-10-13-network-session-foundation.md)。
 
-当前 CLAUDE.md 仍保留 Web 项目的名称、路径和工具规则。以下是已确认 Flutter 设计的对应关系；不得把 Web 特有实现直接当作 Flutter 实现要求。其余通用工程、数据、文档和验证纪律继续适用。
+CLAUDE.md 已于 2026-10-20 重写为 Flutter 原生规则集，下表保留为与 Web 项目（`dex_v2_fe`）对齐的对应参考；不得把 Web 特有实现直接当作 Flutter 实现要求。通用工程、数据、文档和验证纪律以 CLAUDE.md 为唯一权威。
 
 | Web 特有表述 | Flutter 已确认对应 |
 | --- | --- |
@@ -52,4 +52,5 @@ D:\development\flutter\bin\dart.bat run tool/check_architecture.dart
 manifest 为入口；architecture 记录当前实现；decisions 记录已确认决策；status 记录当前范围；design-system / design-tokens 记录已确认视觉方向及实际 token；handoff 记录交接上下文；plans/references 保留执行与证据。不要把状态写入 AGENTS.md。
 
 <!-- 2026-10-13 | 集中工程约束说明 | 用户要求在 docs 保存规则，明确 Web 与 Flutter 对应关系。 -->
+<!-- 2026-10-20 | 规则权威归位 | CLAUDE.md 已重写为 Flutter 原生；本文件退为 Web↔Flutter 对应参考。 -->
 
